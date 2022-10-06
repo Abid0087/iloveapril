@@ -1,6 +1,6 @@
 
 body{
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxd1GVma_rW2kl-aZGh2_YAYLzGbkT1hGiqw&usqp=CAU');
+ /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxd1GVma_rW2kl-aZGh2_YAYLzGbkT1hGiqw&usqp=CAU');*/
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -9,6 +9,29 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+header{
+  display: flex;
+  flex-direction: column;
+}
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 .logo{
   margin: 30px;
   padding: 0;
@@ -35,7 +58,7 @@ body{
 /*  font-family: 'Bungee Spice', cursive;*/
   font-family: 'Indie Flower', cursive;
   font-size: 12px;
-  text-shadow: 0 0 5px rgb(0,0,0);
+  text-shadow: 0 0 5px rgb(221,150,0);
 }
 .logo .text:hover{
   font-size: 15px;
@@ -49,7 +72,8 @@ body{
 .logo .name:hover{
   font-size: 20px;
   font-weight: 900;
-  text-shadow: 0 0 8px rgb(0,0,0);
+  color: #000000;
+  text-shadow: 0 0 8px rgb(221,150,0);
 }
 .logo img{
   padding: 10px;
@@ -63,9 +87,9 @@ body{
 }
 .loved .love{
   font-family: 'Tangerine', serif;
-  text-shadow: 0px 0px 10px white;
+  text-shadow: 0px 0px 10px rgb(221,150,0);
   font-size: 35px;
-  color: rgb(120,120,120);
+  color: rgb(221,150,0);
 }
 .loved .love h1:hover{
   transform: rotate(360deg);
